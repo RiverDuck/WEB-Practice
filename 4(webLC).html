@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <title></title>
+     <script src="https://kit.fontawesome.com/e23898dcab.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+  <style>
+    div ul li{
+      border-top: 5px dotted gray;
+      list-style: none;
+      text-align: center;
+      display:inline-block;
+      width:660px;
+      padding-top: 12px;
+    }
+    div li p{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+          <i class="fab fa-weebly" color="black"></i>
+          <a href="index.html">WEB CODING</a>
+        </div>
+      <ul class="navbar__menu">
+        <li><a href="index.html">WEB</a></li>
+        <li><a href="1(html).html">HTML</a></li>
+        <li><a href="2(css).html">CSS</a></li>
+        <li><a href="3(js).html">JavaScript</a></li>
+        <li><a href="4(webLC).html">WEB Learning Class</a></li>
+        <li><a href="5(sites).html">Sites, close to the WEB</a></li>
+        <li><a href="6(program).html">Program</a></li>
+      </ul>
+      <ul class="navbar__icons">
+        <li><a href="https://twitter.com/?lang=ko"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+      </ul>
+
+      <a href="#" class="navbar__toogleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+
+  <div id="webLC">
+    <h2>WEB Learning Class</h2>
+    <h3>※ I took this class!</h3>
+    <p>
+    <a href="https://opentutorials.org/course/1" target="_blank"><img src="생활코딩.jpg" alt="youtuber 생활코딩" title="youtuber 생활코딩"></a>
+  </p>
+    <p>일반인들에게 프로그래밍을 알려주는 무료 온라인, 오프라인 수업 ! !</p>
+    <ul>
+      <li>
+        <p style="padding-bottom:12px;">1. HTML & Internet class</p>
+      </li>
+        <p style="padding-bottom:12px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
+      <li>
+        <p style="padding-bottom:12px;">2. CSS class</p>
+      </li>
+        <p style="padding-bottom:12px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ok0bBJPtgJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      <li>
+        <p style="padding-bottom:12px;">3. JavaScript class</p>
+      </li>
+        <p style="padding-bottom:12px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dPRtcRwKo-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+        <p style="border-top: 5px dotted gray;
+              list-style: none;
+              text-align: center;
+              display:inline-block;
+              width:660px;
+              padding-top:70px;">
+        <a href="https://opentutorials.org/course/1" target="_blank"><img src="생활코딩.jpg" alt="youtuber 생활코딩" title="youtuber 생활코딩"></a>
+      </p>
+  </ul>
+  </div>
+
+<!-- 댓글기능 추가함.
+-->
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://css-project.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </body>
+</html>

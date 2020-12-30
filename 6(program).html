@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <title></title>
+     <script src="https://kit.fontawesome.com/e23898dcab.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+  <style>
+    div ul li{
+      border-top: 5px dotted gray;
+      list-style: none;
+      text-align: center;
+      display:inline-block;
+      width:660px;
+      padding-top: 12px;
+    }
+    div li p{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    }
+    div ul p{
+      padding-bottom:12px;
+    }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+          <i class="fab fa-weebly" color="black"></i>
+          <a href="index.html">WEB CODING</a>
+        </div>
+      <ul class="navbar__menu">
+        <li><a href="index.html">WEB</a></li>
+        <li><a href="1(html).html">HTML</a></li>
+        <li><a href="2(css).html">CSS</a></li>
+        <li><a href="3(js).html">JavaScript</a></li>
+        <li><a href="4(webLC).html">WEB Learning Class</a></li>
+        <li><a href="5(sites).html">Sites, close to the WEB</a></li>
+        <li><a href="6(program).html">Program</a></li>
+      </ul>
+      <ul class="navbar__icons">
+        <li><a href="https://twitter.com/?lang=ko"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+      </ul>
+
+      <a href="#" class="navbar__toogleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+
+  <div id="webLC">
+    <h2>Program</h2>
+    <h3>( Useful programs for coding )</h3>
+    <p>코딩에 사용한 프로그램 (2020.12.30. update)<br>이미지를 클릭하면 해당 사이트로 이동</p>
+    <ul>
+      <li>
+        <p>HTML, CSS, JavaScript - editer</p>
+      </li>
+      <p>
+        <a href="https://atom.io/"><img src="atom-editor.jpg" alt="atom-editor" width="60px auto;">
+        </a>
+        <strong><br>atom-editor</strong>
+        <br>https://atom.io/
+      </p>
+      <p>
+        <a href="https://code.visualstudio.com/"><img src="vscode.jpg" alt="vscode" width="60px auto;">
+        </a>
+        <strong><br>vscode</strong>
+        <br>https://code.visualstudio.com/
+      </p>
+
+    </ul>
+  </div>
+
+<!-- 댓글기능 추가함.
+-->
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://css-project.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </body>
+</html>

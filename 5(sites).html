@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <title></title>
+     <script src="https://kit.fontawesome.com/e23898dcab.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+  <style>
+    div ul li{
+      border-top: 5px dotted gray;
+      list-style: none;
+      text-align: center;
+      display:inline-block;
+      width:660px;
+      padding-top: 12px;
+    }
+    div li p{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    }
+    div ul p{
+      padding-bottom:12px;
+    }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+          <i class="fab fa-weebly" color="black"></i>
+          <a href="index.html">WEB CODING</a>
+        </div>
+      <ul class="navbar__menu">
+        <li><a href="index.html">WEB</a></li>
+        <li><a href="1(html).html">HTML</a></li>
+        <li><a href="2(css).html">CSS</a></li>
+        <li><a href="3(js).html">JavaScript</a></li>
+        <li><a href="4(webLC).html">WEB Learning Class</a></li>
+        <li><a href="5(sites).html">Sites, close to the WEB</a></li>
+        <li><a href="6(program).html">Program</a></li>
+      </ul>
+      <ul class="navbar__icons">
+        <li><a href="https://twitter.com/?lang=ko"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+      </ul>
+
+      <a href="#" class="navbar__toogleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+
+  <div id="webLC">
+    <h2>Sites, close to the WEB</h2>
+    <h3>( Useful sites for coding )</h3>
+    <p>코딩을 위한 유용한 사이트 모음 (2020.12.30. update)<br>이미지를 클릭하면 해당 사이트로 이동</p>
+    <ul>
+      <li>
+        <p>1. 한줄로 되어있는 CSS파일, js파일을 들여쓰기 해주는 사이트</p>
+      </li>
+      <p>
+        <a href="https://beautifier.io/"><img src="beautifier.io.jpg" alt="beautifier.io" width="60px auto;">
+        </a>
+        <strong><br>beautifier.io</strong>
+        <br>https://beautifier.io/
+      </p>
+      <li>
+        <p>2. 아이콘 가져오기 좋은 사이트</p>
+      </li>
+      <p>
+        <a href="https://thenounproject.com/"><img src="thenounproject.jpg" alt="None Project" width="60px auto;">
+        </a>
+        <strong><br>None Project</strong>
+        <br>https://thenounproject.com/
+      </p>
+      <p>
+        <a href="https://www.flaticon.com/"><img src="Flaticon.jpg" alt="None Project" width="60px auto;">
+        </a>
+        <strong><br>Flaticon</strong>
+        <br>https://www.flaticon.com/
+      </p>
+      <li>
+        <p>3. 인터넷 상에서 다양한 언어로 코딩이 가능한 사이트</p>
+      </li>
+      <p>
+        <a href="https://ideone.com/"><img src="Ideone.jpg" alt="Ideone" width="60px auto;">
+        </a>
+        <strong><br>Ideone</strong>
+        <br>https://ideone.com/
+      </p>
+      <li>
+        <p>4. CSS 백과사전 </p>
+      </li>
+      <p>
+        <a href="https://css-tricks.com/"><img src="css-tricks.jpg" alt="css-tricks" width="60px auto;">
+        </a>
+        <strong><br>css-tricks</strong>
+        <br>https://css-tricks.com/
+      </p>
+      <li>
+        <p>5. 무료 웹소스 제공 사이트</p>
+      </li>
+      <p>
+        <a href="https://www.webjangi.com/"><img src="웹쟁이.jpg" alt="웹쟁이" width="60px auto;">
+        </a>
+        <strong><br>웹쟁이</strong>
+        <br>https://www.webjangi.com/
+      </p>
+      <li>
+        <p>6. 다이어그램 그릴 수 있는 사이트</p>
+      </li>
+      <p>
+        <a href="https://app.diagrams.net/"><img src="Draw.io.jpg" alt="Draw.io" width="60px auto;">
+        </a>
+        <strong><br>Draw.io</strong>
+        <br>https://app.diagrams.net/
+      </p>
+      <li>
+        <p>7. 사이트 등록</p>
+      </li>
+      <p>
+        <a href="https://github.com/"><img src="GitHub.jpg" alt="GitHub" width="60px auto;">
+        </a>
+        <strong><br>GitHub</strong>
+        <br>https://github.com/
+      </p>
+
+        <p style="border-top: 5px dotted gray;
+              list-style: none;
+              text-align: center;
+              display:inline-block;
+              width:660px;
+              padding-top:70px;"></p>
+  </ul>
+  </div>
+
+<!-- 댓글기능 추가함.
+-->
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://css-project.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </body>
+</html>
